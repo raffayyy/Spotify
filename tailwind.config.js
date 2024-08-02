@@ -6,7 +6,12 @@ export default {
     './node_modules/@shadcn/ui/**/*.js', // Adjust this as necessary
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        midnight: '#141414',
+        nightlight: '#1f1f1f',
+      },
+    },
   },
   plugins: [],
 };
