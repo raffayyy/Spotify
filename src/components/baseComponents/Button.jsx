@@ -25,7 +25,7 @@ function Button({
 }) {
   return (
     <button
-      className={`text-sm flex items-center justify-center gap-2 px-4 py-1 ${rounded} ${color} ${textColor} ${disabled ? 'bg-slate-500 text-white' : ''} ${extraAttributes}`}
+      className={`flex items-center justify-center gap-2 px-4 py-1 text-sm ${rounded} ${color} ${textColor} ${disabled ? 'bg-slate-500 text-white' : ''} ${extraAttributes}`}
       disabled={disabled}
       onClick={onClick}
     >

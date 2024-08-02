@@ -4,7 +4,7 @@ import Library from './side-navbar/Library';
 
 function Sidebar() {
   return (
-    <div className="flex flex-col gap-2 h-[90%] w-[23%] bg-black p-2">
+    <div className="flex flex-col gap-2 h-[89%] w-[23%] bg-black p-1">
       <NavLinks />
       <Library />
     </div>

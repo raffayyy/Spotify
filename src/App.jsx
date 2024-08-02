@@ -1,11 +1,13 @@
 import React from 'react';
-import Sidebar from './components/Sidebar';
-import HomeLayout from './layout/HomeLayout';
+import Player from './components/Player';
+// import Header from './components/Header';
+// import HomeLayout from './layout/HomeLayout';
 
 function App() {
   return (
-    <div>
-      <HomeLayout/>
+    <div className='bg-black'>
+      {/* <HomeLayout /> */}
+      {/* <Header/> */}
     </div>
   );
 }
